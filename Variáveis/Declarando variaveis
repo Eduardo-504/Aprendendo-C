@@ -1,0 +1,48 @@
+//Em C, sa declaração de variáveis segue esse formato: "Tipo de variável + Nome da variável"
+//Esssa é a sintaxe correta para declarar variáveis em C 
+
+// vejamos alguns exemplos de declaração de variáveis em C:
+int idade = 21; // - Int idade - Declara uma variável que recebe "números inteiros", chamada "idade", com valor 21
+
+float altura = 1.75;  // - Float altura - Declara uma variável que recebe "números reais", chamada "altura", com valor 1.75
+
+double salario = 759.00; // - Double salario - Declara uma variável que recebe "números reais" com maior precisão, chamada "salario", com valor 759.00
+
+char letra = 'E'; // - Char letra - Declara uma variável que recebe "caracteres", chamada "letra", com valor 'E'
+
+char nome[10] = "eduardo"; // - Char nome - Declara uma variável que recebe "cadeias de caracteres", chamada "nome", com valor "eduardo". O número 10 indica o tamanho máximo da string, incluindo o caractere nulo '\0'.
+
+void // - Void - Declara uma função que não retorna nenhum valor. É usada para indicar que a função não tem um tipo de retorno específico.
+// Em C, as variáveis são usadas para armazenar dados temporariamente durante a execução de um programa. Elas são declaradas com um tipo específico, que determina o tipo de dado que a variável pode armazenar, como inteiros, números reais, caracteres ou cadeias de caracteres.
+// As variáveis devem ser declaradas antes de serem usadas, e o tipo de dado deve ser especificado corretamente para evitar erros de compilação.
+// É importante lembrar que, em C, as variáveis devem ser declaradas antes de serem usadas, e o tipo de dado deve ser especificado corretamente para evitar erros de compilação.
+// Além disso, o nome da variável deve seguir as regras de nomenclatura, como não começar com um número, não conter espaços e não ser uma palavra reservada da linguagem C. 
+// A seguir, veremos como declarar variáveis de diferentes tipos e como usá-las em um programa simples. 
+
+#include <stdio.h>
+int main() {
+    // Declarando variáveis
+    int idade = 21;
+    float altura = 1.75;
+    double salario = 759.00;
+    char letra = 'E';
+    char nome[10] = "eduardo";
+
+    // Exibindo os valores das variáveis
+    printf("Idade: %d\n", idade); // %d é usado para imprimir inteiros
+
+    printf("Altura: %.2f\n", altura); // %.2f é usado para imprimir floats com duas casas decimais
+
+    printf("Salário: %.2lf\n", salario); // %.2lf é usado para imprimir doubles com duas casas decimais
+
+    printf("Letra: %c\n", letra); // %c é usado para imprimir caracteres
+
+    printf("Nome: %s\n", nome); // %s é usado para imprimir strings
+
+    return 0;
+}
+// Neste exemplo, declaramos variáveis de diferentes tipos e exibimos seus valores usando a função printf.
+// A função printf é usada para formatar a saída, onde %d, %.2f, %.2lf, %c e %s são especificadores de formato que indicam o tipo de dado a ser impresso.
+// É importante notar que, ao declarar strings em C, usamos um array de caracteres e especificamos o tamanho máximo do array. O valor da string deve ser menor ou igual a esse tamanho, incluindo o caractere nulo '\0' que indica o final da string.
+// Além disso, é importante lembrar que as variáveis devem ser declaradas antes de serem usadas, e o tipo de dado deve ser especificado corretamente para evitar erros de compilação.
+

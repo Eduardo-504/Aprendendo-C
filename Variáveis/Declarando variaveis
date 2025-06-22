@@ -20,8 +20,7 @@ void // - Void - Declara uma função que não retorna nenhum valor. É usada pa
 // A seguir, veremos como declarar variáveis de diferentes tipos e como usá-las em um programa simples. 
 
 #include <stdio.h>
-int main() {
-    // Declarando variáveis
+int main() { // Declarando variáveis
     int idade = 21;
     float altura = 1.75;
     double salario = 759.00;
